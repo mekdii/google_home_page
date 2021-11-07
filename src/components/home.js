@@ -1,6 +1,5 @@
 import logo from '../asset/logo.jpg';
 import { Grid } from '@material-ui/core';
-import SearchBar from "material-ui-search-bar";
 import { useState } from 'react';
 import {  TextField, IconButton } from '@material-ui/core';
 import { SearchOutlined } from '@material-ui/icons';
@@ -21,7 +20,7 @@ function Home(){
          <Box m={2} pt={4}>
         <Grid container justifyContent="center"  sx={{ pt: 2 }}>
             
-                   <img src={logo} height="150" width="400" align="center" />
+                   <img src={logo} height="150" width="400" align="center" alt= "logo"/>
             
                  </Grid>
                  </Box>:
